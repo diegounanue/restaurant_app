@@ -1,0 +1,42 @@
+.cart-icon-container {
+    display: flex;
+    width: 15rem;
+    justify-content: space-around;
+    height: 3rem;
+    align-items: center;
+    background-color: #383838;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+    .icon {
+        width: 30px;
+    }
+}
+
+.bump { 
+    animation: bump 400ms ease-out
+}
+
+@keyframes bump {
+    0% {
+        transform: scale(1);
+    }
+
+    10% {
+        transform: scale(0.9);
+    } 
+    
+    30% {
+        transform: scale(1.1);
+    } 
+
+    50% {
+        transform: scale(1.15);
+    } 
+
+    100% {
+        transform: scale(1);
+    } 
+}
